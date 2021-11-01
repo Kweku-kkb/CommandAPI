@@ -30,4 +30,3 @@ C:\Users\kweku\source\repos\CommandAPISolution\src\CommandAPI\bin\Debug\net5.0\M
 C:\Users\kweku\source\repos\CommandAPISolution\src\CommandAPI\bin\Debug\net5.0\Npgsql.dll
 C:\Users\kweku\source\repos\CommandAPISolution\src\CommandAPI\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\kweku\source\repos\CommandAPISolution\src\CommandAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\kweku\source\repos\CommandAPISolution\src\CommandAPI\obj\Debug\net5.0\CommandAPI.csproj.CopyComplete
