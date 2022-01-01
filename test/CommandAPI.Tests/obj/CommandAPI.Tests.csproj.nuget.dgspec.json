@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kweku\\source\\repos\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj": {}
+    "C:\\Users\\kweku\\source\\repos\\CommandAPISolution\\CommandAPI\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kweku\\source\\repos\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {
+    "C:\\Users\\kweku\\source\\repos\\CommandAPISolution\\CommandAPI\\src\\CommandAPI\\CommandAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kweku\\source\\repos\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
+        "projectUniqueName": "C:\\Users\\kweku\\source\\repos\\CommandAPISolution\\CommandAPI\\src\\CommandAPI\\CommandAPI.csproj",
         "projectName": "CommandAPI",
-        "projectPath": "C:\\Users\\kweku\\source\\repos\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
+        "projectPath": "C:\\Users\\kweku\\source\\repos\\CommandAPISolution\\CommandAPI\\src\\CommandAPI\\CommandAPI.csproj",
         "packagesPath": "C:\\Users\\kweku\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kweku\\source\\repos\\CommandAPISolution\\src\\CommandAPI\\obj\\",
+        "outputPath": "C:\\Users\\kweku\\source\\repos\\CommandAPISolution\\CommandAPI\\src\\CommandAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,22 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,6 +69,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.13, 5.0.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -61,18 +83,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\kweku\\source\\repos\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj": {
+    "C:\\Users\\kweku\\source\\repos\\CommandAPISolution\\CommandAPI\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kweku\\source\\repos\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\kweku\\source\\repos\\CommandAPISolution\\CommandAPI\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj",
         "projectName": "CommandAPI.Tests",
-        "projectPath": "C:\\Users\\kweku\\source\\repos\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj",
+        "projectPath": "C:\\Users\\kweku\\source\\repos\\CommandAPISolution\\CommandAPI\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj",
         "packagesPath": "C:\\Users\\kweku\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kweku\\source\\repos\\CommandAPISolution\\test\\CommandAPI.Tests\\obj\\",
+        "outputPath": "C:\\Users\\kweku\\source\\repos\\CommandAPISolution\\CommandAPI\\test\\CommandAPI.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -93,8 +115,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\kweku\\source\\repos\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {
-                "projectPath": "C:\\Users\\kweku\\source\\repos\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj"
+              "C:\\Users\\kweku\\source\\repos\\CommandAPISolution\\CommandAPI\\src\\CommandAPI\\CommandAPI.csproj": {
+                "projectPath": "C:\\Users\\kweku\\source\\repos\\CommandAPISolution\\CommandAPI\\src\\CommandAPI\\CommandAPI.csproj"
               }
             }
           }
@@ -145,7 +167,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
