@@ -224,3 +224,10 @@ C:\Users\kweku\source\repos\CommandAPISolution\CommandAPI\test\CommandAPI.Tests\
 C:\Users\kweku\source\repos\CommandAPISolution\CommandAPI\test\CommandAPI.Tests\obj\Debug\net5.0\ref\CommandAPI.Tests.dll
 C:\Users\kweku\source\repos\CommandAPISolution\CommandAPI\test\CommandAPI.Tests\obj\Debug\net5.0\CommandAPI.Tests.pdb
 C:\Users\kweku\source\repos\CommandAPISolution\CommandAPI\test\CommandAPI.Tests\obj\Debug\net5.0\CommandAPI.Tests.genruntimeconfig.cache
+C:\Users\kweku\source\repos\CommandAPISolution\CommandAPI\test\CommandAPI.Tests\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\kweku\source\repos\CommandAPISolution\CommandAPI\test\CommandAPI.Tests\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\kweku\source\repos\CommandAPISolution\CommandAPI\test\CommandAPI.Tests\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\kweku\source\repos\CommandAPISolution\CommandAPI\test\CommandAPI.Tests\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\kweku\source\repos\CommandAPISolution\CommandAPI\test\CommandAPI.Tests\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\kweku\source\repos\CommandAPISolution\CommandAPI\test\CommandAPI.Tests\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\kweku\source\repos\CommandAPISolution\CommandAPI\test\CommandAPI.Tests\bin\Debug\net5.0\Moq.dll
